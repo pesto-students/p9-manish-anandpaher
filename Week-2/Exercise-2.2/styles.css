@@ -1,0 +1,64 @@
+.app {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    position: absolute;
+}
+
+#square1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 1s linear;
+    transform-origin: top left;
+    position: relative;
+}
+
+#square2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: transform 1s linear;
+    transform-origin: bottom left;
+    position: relative;
+}
+
+#square3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: transform 1s linear;
+    transform-origin: top right;
+    position: relative;
+}
+
+#square4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: transform 1s linear;
+    transform-origin: bottom right;
+    position: relative;
+}
+
+.app:hover #square1 {
+    transform: rotate(90deg);
+}
+
+.app:hover #square2 {
+    transform: rotate(-90deg);
+}
+
+.app:hover #square3 {
+    transform: rotate(-90deg);
+}
+
+.app:hover #square4 {
+    transform: rotate(90deg);
+}
