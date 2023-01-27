@@ -12,58 +12,40 @@ h1 {
     z-index: 1;
 }
 
-#square1 {
+.rotate {
     width: 100px;
     height: 100px;
-    background-color: red;
-    transition: transform 1s linear;
-    transform-origin: top left;
     position: relative;
     z-index: 2;
+    transition: transform 1s linear;
+}
+
+.rotate#square1 {
+    background-color: red;
+    transform-origin: top left;
 }
 
 #square2 {
-    width: 100px;
-    height: 100px;
     background-color: blue;
-    transition: transform 1s linear;
     transform-origin: bottom left;
-    position: relative;
-    z-index: 2;
 }
 
 #square3 {
-    width: 100px;
-    height: 100px;
     background-color: yellow;
-    transition: transform 1s linear;
     transform-origin: top right;
-    position: relative;
-    z-index: 2;
 }
 
 #square4 {
-    width: 100px;
-    height: 100px;
     background-color: green;
-    transition: transform 1s linear;
     transform-origin: bottom right;
-    position: relative;
-    z-index: 2;
 }
 
-.app:hover #square1 {
-    transform: rotate(90deg);
-}
-
-.app:hover #square2 {
-    transform: rotate(-90deg);
-}
-
-.app:hover #square3 {
-    transform: rotate(-90deg);
-}
-
+.app:hover #square1,
 .app:hover #square4 {
     transform: rotate(90deg);
+}
+
+.app:hover #square2,
+.app:hover #square3 {
+    transform: rotate(-90deg);
 }
