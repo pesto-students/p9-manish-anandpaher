@@ -1,85 +1,85 @@
-
-  
-  body {
+body {
     font-family: "sans-serif";
     background-color: antiquewhite;
-  }
-  
-  
-  header h1{
-    
-    text-align: center;
-  }
+}
 
-  .p {
-    
+
+header h1 {
+
+    text-align: center;
+}
+
+.p {
+
     text-align: justify;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .column {
+}
+
+.column {
     flex: 50%;
     display: flex;
     flex-wrap: wrap;
-      }
-  
-  .colunm-side {
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: space-around;
-    text-align: justify;
-  }
-  
-  .column .item {
-    margin: 10px;
-    padding: 10px;
-    
-    border-radius: 20px;
-    background-color: white;
-    
-    margin-bottom: 10px;
-  }
-  
-.column .img-item{
-    background-color: antiquewhite;
-    
 }
 
-  .column .item img {
+.colunm-side {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.column .item {
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 20px;
+    background-color: white;
+
+    margin-bottom: 10px;
+}
+
+.column .img-item {
+    background-color: antiquewhite;
+
+}
+
+.column .item img {
     height: auto;
     width: auto;
-  
-    
-  }
-  
-  .column .item .p {
+
+
+}
+
+.column .item .p {
     font-size: 17px;
     padding: 10px;
     border: 2px dashed #39df9e;
     border-radius: 10px;
-  }
-  
-  .column .item h2 {
+}
+
+.column .item h2 {
     background-color: #1d4245;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     color: #fff;
-  }
-  .form {
+}
+
+.form {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
     width: 500px;
     padding: auto;
     background-color: white;
-  }
-  .form-control {
+}
+
+.form-control {
     display: flex;
     margin-bottom: 1rem;
     border-radius: 10px;
@@ -87,39 +87,40 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-  }
-  
-  .form-control .label {
+}
+
+.form-control .label {
     width: 30%;
     padding: 10px;
     font-size: large;
-  }
-  
-  .form-control input[type="text"],
-  .form-control input[type="email"],
-  .form-control input[type="password"],
-  .form-control input[type="tel"],
-  .form-control select {
-    
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control input[type="password"],
+.form-control input[type="tel"],
+.form-control select {
+
     width: 50%;
-    padding: 10px;;
+    padding: 10px;
+    ;
     font-size: large;
     font-weight: 400;
     line-height: 1.5;
     color: black;
-    
-  
-    border: 2px solid black;
-    
-    
-  }
 
-  .form-control input[type="checkbox"]{
+
+    border: 2px solid black;
+
+
+}
+
+.form-control input[type="checkbox"] {
     padding: 10px;
     margin-left: 10px;
-  }
-  
-  .submit {
+}
+
+.submit {
     background-image: linear-gradient(to right, #2bc496, #0c8983);
     width: 100%;
     padding: 10px;
@@ -127,25 +128,24 @@
     border-radius: 20px;
     border: none;
     font-size: 20px;
-    
-    
-  }
-  
-  .submit:hover{
+
+
+}
+
+.submit:hover {
     background-image: linear-gradient(to left, rgb(128, 181, 199), rgb(33, 109, 134));
-  }
-  
-  footer {
+}
+
+footer {
     padding: 10px;
     background-color: rgb(29, 87, 87);
     color: white;
     letter-spacing: 1px;
     text-align: center;
-    
-  }
-  
-  footer a {
+
+}
+
+footer a {
     color: lightgreen;
     text-decoration: none;
-  }
-  
+}
