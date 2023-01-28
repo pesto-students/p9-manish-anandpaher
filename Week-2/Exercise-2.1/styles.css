@@ -98,6 +98,7 @@
   .form-control input[type="text"],
   .form-control input[type="email"],
   .form-control input[type="password"],
+  .form-control input[type="tel"],
   .form-control select {
     
     width: 50%;
