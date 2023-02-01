@@ -1,98 +1,77 @@
 body {
-    font-family: "sans-serif";
-    background-color: antiquewhite;
+  font-family: "sans-serif";
+  background-color: antiquewhite;
 }
 
-
 header h1 {
+  text-align: center;
+}
 
-    text-align: center;
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.left-section img {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
 }
 
 .p {
-
-    text-align: justify;
+  font-size: 17px;
+  padding: 10px;
+  border: 2px dashed #39df9e;
+  border-radius: 10px;
+  text-align: justify;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.right-section .left-section {
+  text-align: justify;
 }
 
-.column {
-    flex: 50%;
-    display: flex;
-    flex-wrap: wrap;
+.item {
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 10px;
 }
 
-.colunm-side {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: space-around;
-    text-align: justify;
-}
-
-.column .item {
-    margin: 10px;
-    padding: 10px;
-
-    border-radius: 20px;
-    background-color: white;
-
-    margin-bottom: 10px;
-}
-
-.column .img-item {
-    background-color: antiquewhite;
-
-}
-
-.column .item img {
-    height: auto;
-    width: auto;
-
-
-}
-
-.column .item .p {
-    font-size: 17px;
-    padding: 10px;
-    border: 2px dashed #39df9e;
-    border-radius: 10px;
-}
-
-.column .item h2 {
-    background-color: #1d4245;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: #fff;
+.right-section .item h2 {
+  background-color: #1d4245;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 .form {
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    width: 500px;
-    padding: auto;
-    background-color: white;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 500px;
+  padding: auto;
+  background-color: white;
 }
 
 .form-control {
-    display: flex;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .form-control .label {
-    width: 30%;
-    padding: 10px;
-    font-size: large;
+  width: 30%;
+  padding: 10px;
+  font-size: large;
 }
 
 .form-control input[type="text"],
@@ -101,51 +80,56 @@ header h1 {
 .form-control input[type="tel"],
 .form-control select {
 
-    width: 50%;
-    padding: 10px;
-    ;
-    font-size: large;
-    font-weight: 400;
-    line-height: 1.5;
-    color: black;
-
-
-    border: 2px solid black;
-
-
+  width: 50%;
+  padding: 10px;
+  font-size: large;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  border: 2px solid black;
 }
 
 .form-control input[type="checkbox"] {
-    padding: 10px;
-    margin-left: 10px;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .submit {
-    background-image: linear-gradient(to right, #2bc496, #0c8983);
-    width: 100%;
-    padding: 10px;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 20px;
-
-
+  background-image: linear-gradient(to right, #2bc496, #0c8983);
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
 }
 
 .submit:hover {
-    background-image: linear-gradient(to left, rgb(128, 181, 199), rgb(33, 109, 134));
+  background-image: linear-gradient(to left, rgb(128, 181, 199), rgb(33, 109, 134));
 }
 
 footer {
-    padding: 10px;
-    background-color: rgb(29, 87, 87);
-    color: white;
-    letter-spacing: 1px;
-    text-align: center;
-
+  padding: 10px;
+  background-color: rgb(29, 87, 87);
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 footer a {
-    color: lightgreen;
-    text-decoration: none;
+  color: lightgreen;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .form {
+    width: auto;
+  }
 }
