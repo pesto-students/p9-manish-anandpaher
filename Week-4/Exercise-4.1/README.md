@@ -37,3 +37,6 @@ Implement a function namedgetNumberwhich generatesa random number. If randomNumb
 4.Error handling using functions.
 
 <h2>Output: </h2>
+
+![image](https://user-images.githubusercontent.com/46132450/218274352-f20158b6-7b5c-4b33-8518-5134e961cd40.png)
+
