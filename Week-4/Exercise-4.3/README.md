@@ -23,3 +23,5 @@ Sample output:
 2.Understanding ‘under the hood’ implementation of Iterators.
 
 <h2>Output: </h2>
+
+![image](https://user-images.githubusercontent.com/46132450/218272698-4137b479-7e53-4363-9e12-2888143d4cb3.png)
