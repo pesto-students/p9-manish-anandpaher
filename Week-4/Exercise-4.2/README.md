@@ -19,3 +19,5 @@ Create an object calledTeacherderived from thePersonclass, and implement a metho
 2.The candidates will understand what a prototype keyword is in JS.
 
 <h2>Output: </h2>
+
+![image](https://user-images.githubusercontent.com/46132450/218265589-5faf694f-3e1d-4c20-820e-0aed0167a5f4.png)
