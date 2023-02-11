@@ -16,4 +16,4 @@ const Fib = (num) => ({
   },
 });
 
-console.log("The Fibonacci Series is: " + [...Fib(7)]);
+console.log("The Fibonacci Series is: \n" + [...Fib(7)].join('\n'));
