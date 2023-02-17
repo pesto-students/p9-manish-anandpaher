@@ -1,8 +1,4 @@
-function hasDuplicate(arr) {
-  let arrSet = new Set(arr);
-
-  return arrSet.size !== arr.length;
-}
+let hasDuplicate = (arr) => new Set(arr).size !== arr.length;
 
 console.log(hasDuplicate([1, 2, 1, 3, 4, 3, 5, 6, 5]));
 console.log(hasDuplicate([1, 2, 3, 4, 5, 6, 7]));
