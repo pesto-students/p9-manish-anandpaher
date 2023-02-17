@@ -25,3 +25,7 @@ Execute 3 callback functions asynchronously, for example doTask1(), doTask2() an
 1.Under the hood understanding of how a Generator works.
 
 2.Under the hood understanding of how Async/await works.
+
+<h2>Output:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/219605197-16442155-282c-49e1-8092-825e16098869.png)
