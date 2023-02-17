@@ -17,3 +17,7 @@ Write a function called vowelCount which accepts a string and returns a map wher
 <h2>Outcome:</h2>
 
 1.Understanding of Map API and its functionalities.
+
+<h2>Output:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/219599698-26270ec4-60c7-4ea4-b246-68bdab341f97.png)
