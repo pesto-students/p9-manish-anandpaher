@@ -15,3 +15,8 @@ Write a function called hasDuplicate which accepts an array and returns true or 
 <h2>Outcome:</h2>
 
 Understanding of Set API and its functionalities.
+
+<h2>Output:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/219599226-8b5af236-54fd-4d2f-9dff-65436f61d641.png)
+
