@@ -49,3 +49,7 @@ module.exports = mathOperations
 3.What are the packages required for writing test cases?
 
 4.How to configure test cases in package.json file.
+
+<h2>Output:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/219852565-35e15eae-5119-46f0-84eb-4ea6b0f09aa6.png)
