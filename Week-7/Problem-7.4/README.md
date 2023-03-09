@@ -17,3 +17,7 @@ Input: prices =[7,6,4,3,1]
 Output: 0 
 
 Explanation: In this case, no transactions are done and the maxprofit = 0 Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/223962131-97623223-e3f7-4f92-8aca-4468f73be260.png)
