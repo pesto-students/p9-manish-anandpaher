@@ -35,3 +35,7 @@ Time Complexity: O(N)
 Expected Auxiliary Space: O(1)
 
 Constraints: 1 <= N <= 10^6 0 <= A[i] <= 2
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/223959450-f1abadd4-3fbf-43c3-8c50-085d54fce90c.png)
