@@ -18,3 +18,6 @@ function maxSumSubArr(arr) {
 console.log(maxSumSubArr([1, 2, 3, 4, -10]));
 console.log(maxSumSubArr([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
 console.log(maxSumSubArr([4, -1, 2, 1]));
+
+//Time Complexity: O(N)
+//Space Complexity: O(1)
