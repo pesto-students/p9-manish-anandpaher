@@ -40,3 +40,6 @@ console.log(
     [7, 8, 9],
   ])
 );
+
+//Time Complexity: O(M*N)
+//Space Complexity: O(N)
