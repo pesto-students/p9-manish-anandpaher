@@ -1,4 +1,4 @@
-<h2>Problem 7.2 Spiral Order Matrix II</h2>
+<h2>Problem 7.2: Spiral Order Matrix II</h2>
 
 Problem Description Given a matrix of m * n elements (m rows, n columns), return allelements of the matrix in spiral order.
 
