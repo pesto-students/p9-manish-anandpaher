@@ -23,3 +23,7 @@ Example Explanation:
 Explanation 1: Pair (80, 2) gives a difference of 78. 
 
 Explanation 2: Pair (20, -10) gives a difference of 30 i.e 20 - (-10) => 20 + 10 => 30
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/223975889-d842c67a-24c5-449d-91a2-1fff4c08d406.png)
