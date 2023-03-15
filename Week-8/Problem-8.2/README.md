@@ -41,3 +41,7 @@ Expected Time Complexity: O(N).
 Expected Auxiliary Space: O(1).
 
 Constraints: 1 <= N <= 103 1 <= k <= N
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/225247963-94eff4d8-a9a2-45a4-889d-15ce15ea0249.png)
