@@ -35,3 +35,7 @@ Expected Time Complexity: O(|x|)
 Expected Auixilliary Space: O(|x|)
 
 Constraints: 1 ≤ |x| ≤ 32000
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/225556126-31b47114-3819-4413-bba3-a6f355372f00.png)
