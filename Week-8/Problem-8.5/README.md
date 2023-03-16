@@ -39,3 +39,7 @@ Expected Time Complexity : O(N)
 Expected Auxilliary Space : O(N)
 
 Constraints: 1 ≤ N ≤ 106 1 ≤ Ai ≤ 1018
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/225585511-fa420451-08f1-411c-ab8b-c50a1ae780cc.png)
