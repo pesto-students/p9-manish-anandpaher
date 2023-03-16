@@ -39,3 +39,7 @@ Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(1)
 
 Constraints: 1 ≤ N ≤ 104 1 ≤ Data on Node ≤ 103
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/225530130-a1a33028-b31b-4eca-90c3-76ab87220f24.png)
