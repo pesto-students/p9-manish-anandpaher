@@ -55,3 +55,7 @@ Expected Time Complexity : O(1) for push() and O(N) for pop() or O(N) for push()
 Expected Auxilliary Space : O(1).
 
 Constraints: 1 <= Q <= 100 1 <= x <= 100
+
+<h2>Solution:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/227150978-a285c701-dcb0-43ca-88e0-a0ce25b02aa8.png)
