@@ -33,3 +33,7 @@ Constraints:
 ●The number of nodes in the tree is in the range [1, 104].
 
 ●231<= Node.val <= 231- 1
+
+<h2>Result:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/230731434-b36ea6fb-a14b-4757-a570-f2526e8f757d.png)
