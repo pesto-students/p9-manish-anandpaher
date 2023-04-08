@@ -27,3 +27,7 @@ Constraints:
 ●The number of nodes in the tree is in the range [0, 2000].
 
 ●-1000 <= Node.val <= 1000
+
+<h2>Result:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/230732057-7cd6b7ec-7a9a-47f3-b045-02ab7f859413.png)
