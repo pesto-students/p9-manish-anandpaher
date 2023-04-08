@@ -23,3 +23,7 @@ Constraints:
 ●The number of nodes in the tree is in the range [0, 104].
   
 ●100 <= Node.val <= 100
+
+<h2>Result:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/230730156-3345dcaa-efaf-489f-8b08-417cd885fb07.png)
