@@ -40,3 +40,7 @@ Constraints:
 ●ai != bi
 
 ●1 <= ai, bi <= n
+
+<h2>Result:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/230763393-152f5a00-34af-40e3-a7aa-43a75d4f591e.png)
