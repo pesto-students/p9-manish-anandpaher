@@ -49,3 +49,7 @@ Constraints:
 ●ui != vi●0 <= source, destination <= n - 1
 
 ●There are no duplicate edges. -There are no self edges.
+
+<h2>Result:</h2>
+
+![image](https://user-images.githubusercontent.com/46132450/230763303-5cb848a5-d1b4-48ba-8a18-e32af0ac4082.png)
