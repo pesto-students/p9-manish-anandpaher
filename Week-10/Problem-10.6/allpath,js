@@ -1,0 +1,18 @@
+function allPathsSourceTarget(graph) {
+  let paths = [];
+  function dfs(u, path) {
+    if (u === graph.length - 1) {
+      paths.push(path);
+      return;
+    }
+    for (let v of graph[u]) {
+      dfs(v, path.concat(v));
+    }
+  }
+  dfs(0, [0]);
+  return paths;
+}
+
+let graph = [[1, 2], [3], [3], []];
+
+console.log(allPathsSourceTarget(graph));
